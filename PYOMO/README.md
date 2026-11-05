@@ -1,5 +1,11 @@
 # Dimensionnement PV + Batterie + Réseau — Optimisation MILP (Pyomo)
 
+> **English summary** — MILP model (**Pyomo** + HiGHS) that sizes the number of PV panels and battery modules for a French household and optimises the hourly dispatch (PV, battery, grid purchase/sale) over a full year, minimising total annualised cost while meeting demand every hour.
+>
+> A cap on grid purchases is swept from 100% to 0% to quantify the **cost of self-sufficiency**, for a fixed tariff and a spot-price contract, followed by a sensitivity analysis (PV price, battery price, discount rate, battery lifetime).
+>
+> Mathematical formulation: [`modelisation.pdf`](modelisation.pdf) · Results report: [`presentation_resultats.pdf`](presentation_resultats.pdf) (in French).
+
 Ce notebook détermine, pour une maison individuelle en France, **combien de panneaux photovoltaïques et de modules de batterie installer**, ainsi que le **dispatch horaire optimal** (production PV, charge/décharge batterie, achat/vente réseau) qui **minimise le coût total annualisé** tout en couvrant la demande électrique à chaque heure de l'année.
 
 Au-delà de l'optimum de marché pur, le notebook **chiffre le coût de la transition énergétique** : en plafonnant progressivement la part de la demande annuelle qui peut être couverte par des achats réseau, on force le système vers plus d'autonomie et on regarde combien ça coûte à chaque palier.
