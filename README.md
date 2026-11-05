@@ -11,7 +11,7 @@ Personal projects by **Arthur Aussenac**, engineer (IMT Atlantique, Master's deg
 |---|---|---|---|
 | [**French power dispatch**](pypsa/) | Rebuilds the French power system (2015–2026) as an economic dispatch model and compares it with observed generation. Nuclear output is reproduced within 2%; the under-dispatch of thermal plants is diagnosed (missing ramp / minimum-load constraints). Carbon-price and nuclear-outage scenarios. | PyPSA, HiGHS, pandas, public RTE data | Done |
 | [**PV + battery + grid sizing**](PYOMO/) | MILP that sizes PV panels and battery modules for a French household and optimises the hourly dispatch over a full year, minimising annualised cost. Quantifies the cost of increasing self-sufficiency, with a sensitivity analysis. | Pyomo, HiGHS, pvlib, ENTSO-E | Done |
-| [**Energy transition scenarios (IAM)**](iam/) | France / world energy transition scenarios with the OSeMOSYS framework, coupled with PyPSA dispatch results (GDP, jobs, import dependency). | OSeMOSYS, PyPSA, Streamlit | Work in progress |
+| [**France carbon scenarios**](iam/) | Educational web app: France's energy, economy and emissions, and four emission scenarios (trend with backtest, demand, supply, combined) compared with a cumulative carbon budget derived from global budgets. Next stage: an optimised pathway with OSeMOSYS + PyPSA. | Python, Streamlit, Plotly | In progress – release late Nov 2026 |
 
 The PyPSA and Pyomo folders each contain a detailed README (French, with an English summary), the notebook and a results report (PDF).
 
