@@ -1,16 +1,15 @@
 import streamlit as st
 
-st.title("Projet IAM")
-
+st.title("Energy transition scenarios – France & World")
 
 st.markdown(
-    """ 
-    This is a playground for you to try Streamlit and have fun. 
+    """
+    **Work in progress.**
 
-    **There's :rainbow[so much] you can build!**
-    
-    We prepared a few examples for you to get started. Just 
-    click on the buttons above and discover what you can do 
-    with Streamlit. 
+    This app will present France and world energy transition scenarios
+    (status quo, net zero, alternative) built with the OSeMOSYS framework
+    and coupled with a PyPSA dispatch model of the French power system.
+
+    See the project README for the goal and roadmap.
     """
 )
