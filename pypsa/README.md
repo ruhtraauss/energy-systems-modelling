@@ -1,5 +1,11 @@
 # Modélisation du dispatch électrique français avec PyPSA
 
+> **English summary** — Economic dispatch model of the French power system (2015–2026) built with **PyPSA** from public RTE data, compared with observed generation.
+>
+> **Key results:** nuclear output reproduced within 2%; gas, coal and oil plants strongly under-dispatched vs. reality, explained by the absence of ramp and minimum-load constraints on nuclear (not by cost calibration, as shown by sensitivity analysis and a carbon-price scan up to 5×); nuclear-outage scenarios (×1.5 to ×3 unavailability) show a coherent substitution cascade and the limits of a single-bus model.
+>
+> Full report: [`Article_pypsa_presentation_resultats.pdf`](Article_pypsa_presentation_resultats.pdf) (in French).
+
 Reconstitution du mix électrique français (2015-2026) sous forme de modèle de
 dispatch économique, comparaison au réel observé, puis scénarios prospectifs
 (prix du carbone, indisponibilité massive du nucléaire).
@@ -102,5 +108,4 @@ le délestage devient actif sur beaucoup d'heures).
 
 ## Auteur
 
-Arthur Aussenac — IMT Atlantique, spécialisation mathématiques appliquées
-et énergies renouvelables.
+Arthur Aussenac — IMT Atlantique (grade de master, 2026), spécialisation transition énergétique et optimisation.
