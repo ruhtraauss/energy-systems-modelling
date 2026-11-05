@@ -1,0 +1,19 @@
+# Common
+pandas
+numpy
+matplotlib
+jupyter
+
+# Solvers / modelling
+pypsa
+pyomo
+highspy
+
+# Data access
+pvlib
+entsoe-py
+openpyxl
+pyarrow
+
+# IAM web tool (work in progress)
+streamlit
